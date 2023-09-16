@@ -3,6 +3,7 @@ type: module
 description: ' As a user able to see the Site location and the current time for the location as per our required format.'
 core_version_requirement: ^8 || ^9
 package: Custom
+configure: custom_timezone.default_form
 
 
 library:
