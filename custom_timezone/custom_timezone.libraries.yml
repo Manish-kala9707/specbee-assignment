@@ -1,0 +1,6 @@
+time-updates:
+  version: VERSION
+  js:
+    js/time-updates.js: {}
+  dependencies:
+    - core/jquery
