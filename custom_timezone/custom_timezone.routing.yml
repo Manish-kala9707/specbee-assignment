@@ -1,0 +1,9 @@
+custom_timezone.default_form:
+  path: '/admin/config/custom_timezone/default'
+  defaults:
+    _form: '\Drupal\custom_timezone\Form\CountryCityConfigForm'
+    _title: 'Timezone '
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
